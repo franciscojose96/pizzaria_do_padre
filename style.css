@@ -212,10 +212,31 @@ section {
     padding: 1rem 0;
     line-height: 1.8;
 }
-.box-conteiner {
+
+/* MENU */
+
+.menu .box-conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.menu .box-conteiner .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+    background: var(--bg-card);
     
 }
 
-.box{
-    
+.menu .box-conteiner .box img{
+    height: 18rem;
+    border-radius: 100%;
+}
+
+.menu .box-conteiner .box h3 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
 }
