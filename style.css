@@ -324,7 +324,7 @@ section {
 
 .review .box-conteiner {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmix(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
 
@@ -339,4 +339,59 @@ section {
     line-height: 1.8;
     color: #ccc;
     padding: 2rem 0;
+}
+
+.review .box-conteiner .box .user {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-conteiner .box h3 {
+    padding: 1rem;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.review .box-conteiner .box .stars i{
+    font-size: 1.7rem;
+    color: var(--main-color);
+}
+
+
+/* FOOTER / RODAPÉ */
+.heading-footer {
+    color: #fff ;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.heading-footer span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.footer {
+    background: var(--bg);
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.footer .conteiner {
+    display: flex;
+    padding: 0 7%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1 1 25rem;
+    margin: 1rem;
+}
+
+.footer-col ul {
+    list-style: none;
 }
