@@ -259,3 +259,84 @@ section {
 .menu .box-conteiner .box:hover > *{
     color: black;
 }
+
+/* Products / Promoções */
+
+.products .box-conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.products .box-conteiner .box{
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+}
+
+.products .box-conteiner .box .icons a ion-icon{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 1.7rem;
+    border: var(--border);
+    color: #fff;
+    margin: 0.3rem;
+}
+
+.products .box-conteiner .box .icons a ion-icon:hover{
+    color: var(--main-color);
+}
+
+.products .box-conteiner .box .image{
+    padding: 2.5rem 0;
+}
+
+.products .box-conteiner .box .image img{
+    height: 25rem;
+}
+
+.products .box-conteiner .box .content h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.products .box-conteiner .box .content .stars{
+    padding: 1.5rem;
+}
+.products .box-conteiner .box .content .stars i{
+    font-size: 1.9rem;
+    color: var(--main-color);
+}
+
+.products .box-conteiner .box .content .price{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.products .box-conteiner .box .content .price span {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+}
+
+/* Review / Avaliações */
+
+.review .box-conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmix(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .box-conteiner .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.review .box-conteiner .box p {
+    font-size: 1.7rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 2rem 0;
+}
