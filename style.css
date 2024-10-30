@@ -394,4 +394,46 @@ section {
 
 .footer-col ul {
     list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover{
+    color: var(--main-color);
+}
+
+.footer .social-links{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.footer .social-links a {
+    color: #ccc;
+    font-size: 3rem;
+    transition: color 0.3s;
+}
+
+.footer .social-links a:hover{
+    color: var(--main-color);
+}
+
+.footer .footer-bottom {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    border-top: var(--border);
+    margin-top: 2rem;
+    color: #ccc;
 }
